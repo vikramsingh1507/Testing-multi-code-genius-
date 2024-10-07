@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: Mulish, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Body*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* Container Layout */
+.container {
+    width: 75%;
+    display: flex;
+}
+
+/* Left Section Layout */
+.left-section {
+    padding: 33px 51px;
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(8, 75, 62);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    color: whitesmoke;
+}
+
+/* Right Section Layout */
+.right-section {
+    width: 60%;
+    border-radius: 0 50px 50px 0;
+    background: rgb(255, 255, 255);
+    padding: 55px 200px 55px 52px;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+}
+
+/* Typography Section */
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+small {
+    color: rgb(189, 189, 189);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+}
+
+#link-green {
+    color: rgb(0, 195, 139);
+}
+
+/* Input Styles */
+label, input, small {
+    display: block;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: white;
+    box-shadow: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-bottom: 60px;
+    font-size: 1rem;
+    padding-bottom: 3px;
+}
+
+
+
+/* Button Styles */
+button {
+    display: flex;
+    width: 100%;
+    padding: 24px 43px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: rgb(0, 195, 139);
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 1.25rem;
+}
+
+/* Logo Styles */
+#logo {
+    width: 45%;
+}
