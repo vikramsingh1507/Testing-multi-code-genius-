@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-/* Body*/
+/* Body */
 body {
     margin: 0;
     padding: 0;
@@ -97,8 +97,6 @@ input {
     padding-bottom: 3px;
 }
 
-
-
 /* Button Styles */
 button {
     display: flex;
@@ -118,4 +116,46 @@ button {
 /* Logo Styles */
 #logo {
     width: 45%;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack the sections vertically */
+        width: 90%; /* Make the container narrower */
+    }
+
+    .left-section, .right-section {
+        width: 100%; /* Full width for both sections */
+        padding: 20px; /* Reduce padding */
+    }
+
+    .right-section {
+        padding: 40px 20px; /* Adjust padding */
+        border-radius: 0 0 50px 50px;
+    }
+
+    .left-section {
+        border-radius: 50px 50px 0 0;
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Adjust font size for mobile */
+    }
+
+    label {
+        font-size: 0.9rem; /* Smaller labels */
+    }
+
+    input {
+        font-size: 1rem; /* Adjust input font size */
+    }
+
+    button {
+        font-size: 1rem; /* Adjust button font size */
+    }
+
+    small {
+        font-size: 12px; /* Smaller text for small screens */
+    }
 }
