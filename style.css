@@ -121,17 +121,17 @@ button {
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column; /* Stack the sections vertically */
-        width: 90%; /* Make the container narrower */
+        flex-direction: column; 
+        width: 90%; 
     }
 
     .left-section, .right-section {
-        width: 100%; /* Full width for both sections */
-        padding: 20px; /* Reduce padding */
+        width: 100%; 
+        padding: 20px;
     }
 
     .right-section {
-        padding: 40px 20px; /* Adjust padding */
+        padding: 40px 20px; 
         border-radius: 0 0 50px 50px;
     }
 
@@ -140,22 +140,22 @@ button {
     }
 
     h1 {
-        font-size: 1.5rem; /* Adjust font size for mobile */
+        font-size: 1.5rem; 
     }
 
     label {
-        font-size: 0.9rem; /* Smaller labels */
+        font-size: 0.9rem; 
     }
 
     input {
-        font-size: 1rem; /* Adjust input font size */
+        font-size: 1rem; 
     }
 
     button {
-        font-size: 1rem; /* Adjust button font size */
+        font-size: 1rem; 
     }
 
     small {
-        font-size: 12px; /* Smaller text for small screens */
+        font-size: 12px; 
     }
 }
